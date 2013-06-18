@@ -2,10 +2,10 @@
   "name": "geocode",
   "fullName": "fx-sdk-geocode",
   "id": "jid1-JrQOOMdOsBydaA",
-  "description": "Mozilla Add-on SDK module for geocoding.  Requires the geoloc",
-  "author": "",
+  "description": "Mozilla Add-on SDK module for geocoding.  Requires the fx-sdk-geolocation module.",
+  "author": "Bryan Clark (http://clarkbw.net/) <clarkbw@gmail.com>",
   "license": "MPL 2.0",
-  "version": "0.1.0",
+  "version": "0.2.0",
 	"dependencies" : [
 	  "geolocation"
 	]
