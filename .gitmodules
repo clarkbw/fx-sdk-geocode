@@ -1,0 +1,3 @@
+[submodule "packages/geolocation"]
+	path = packages/geolocation
+	url = git@github.com:clarkbw/fx-sdk-geolocation.git
