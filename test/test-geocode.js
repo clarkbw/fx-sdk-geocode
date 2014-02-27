@@ -22,9 +22,7 @@ exports["test 01 get geocode results"] = function(assert, done) {
 		assert.pass("got geocoded event");
 		done();
 	});
-	assert.equal(Geocode.sensor, false, 'sensor defaults to false');
-	Geocode.sensor = true;
-	assert.equal(Geocode.sensor, true, 'set sensor to true and it stuck');
+	assert.equal(Geocode.sensor, true, 'sensor defaults to true');
   Geolocation.allowed = true;
   Geolocation.getCurrentPosition();
 };
